@@ -1,6 +1,8 @@
 # FSharp.ReaderM
 An implementation of the Reader monad in F#
 
+[![Build status](https://ci.appveyor.com/api/projects/status/r2nukapfhv138y1l?svg=true)](https://ci.appveyor.com/project/danieljsummers/fsharp-readerm) [![NuGet Version](https://img.shields.io/nuget/v/FSharp.ReaderM.svg)](https://www.nuget.org/packages/FSharp.ReaderM/)
+
 This project arose out of my desire to use this pattern in different projects, but not wanting to copy/paste it over
 and over. Feel free to use it; PRs are welcome, as I am not a monad expert.
 

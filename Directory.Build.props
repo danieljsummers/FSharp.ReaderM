@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Authors>Daniel J. Summers</Authors>
+    <PackageLicenseUrl>https://github.com/danieljsummers/FSharp.ReaderM/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/danieljsummers/FSharp.ReaderM</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/danieljsummers/FSharp.ReaderM/raw/master/icon/fsharp-reader.png</PackageIconUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Initial release</PackageReleaseNotes>
+    <Copyright>MIT License</Copyright>
+    <PackageTags>F# Reader Monad</PackageTags>
+    <VersionPrefix>1.0.0</VersionPrefix>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Core" Version="4.1.*" />
+    <PackageReference Include="FSharp.NET.Sdk" Version="1.0.*" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+﻿<Project Sdk="FSharp.NET.Sdk;Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="ReaderM.Tests.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Expecto" Version="5.*" />
+    <ProjectReference Include="..\FSharp.ReaderM\FSharp.ReaderM.fsproj" />
+  </ItemGroup>
+
+</Project>

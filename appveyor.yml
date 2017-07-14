@@ -1,0 +1,13 @@
+os: Visual Studio 2017
+
+build_script:
+ - cmd: dotnet restore src\FSharp.ReaderM.sln
+ - cmd: dotnet build -v n src\FSharp.ReaderM.sln
+ - cmd: dotnet pack src\FSharp.ReaderM\FSharp.ReaderM.fsproj -o %CD%\artifacts\nupkg
+ 
+artifacts:
+ - path: artifacts\nupkg\*.nupkg 
+
+test_script:
+ - cmd: dotnet run --project src\FSharp.ReaderM.Tests\FSharp.ReaderM.Tests.fsproj
+

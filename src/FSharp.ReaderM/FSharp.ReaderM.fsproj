@@ -1,0 +1,12 @@
+﻿<Project Sdk="FSharp.NET.Sdk;Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.6;net451</TargetFrameworks>
+    <Description>An implementation of the Reader monad in F#</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="ReaderM.fs" />
+  </ItemGroup>
+
+</Project>

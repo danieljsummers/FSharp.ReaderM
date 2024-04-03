@@ -1,3 +1,7 @@
+## NOTE _(April 2024)_
+
+When I made this, I was unaware of [the FSharpPlus project](https://github.com/fsprojects/FSharpPlus/) - which provides not only [a Reader monad](https://fsprojects.github.io/FSharpPlus/type-reader.html), but many other types used in common functional programming paradigms. It is actively maintained, whereas this one has not been and likely will not be.
+
 # FSharp.ReaderM
 An implementation of the Reader monad in F#
 
